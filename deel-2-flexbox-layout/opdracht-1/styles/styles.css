@@ -1,1 +1,48 @@
 /*Schrijf hier jouw CSS*/
+body {
+    /*border: 4px solid purple;*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    flex-basis: 100px;
+
+}
+
+main {
+    /*border: 4px solid darkred;*/
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    height: 100vh;
+    /*flex-grow: 1;*/
+
+
+}
+
+article {
+    flex-basis: 60vw;
+    flex-shrink: 1;
+    flex-grow: 1;
+    order: 1;
+}
+
+nav {
+    flex-basis: 20vw;
+    flex-shrink: 0;
+    order: 3;
+
+
+}
+
+aside {
+    flex-basis: 20vw;
+    flex-grow: 1;
+    order: 2;
+}
+
+footer {
+
+}
